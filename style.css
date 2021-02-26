@@ -1,0 +1,110 @@
+#mainDiv{
+    background-image: url("trv.jpeg");
+    background-repeat: repeat;
+    position: absolute;
+    top: 50px;
+    bottom: 50px;
+    left: 250px;
+    right: 250px;
+    margin: auto;
+}
+.category{
+    display: inline-block;
+}
+.type{
+    display: inline-block;
+    
+}
+.difficulty{
+    display: inline-block;
+}
+.amount{
+    display: inline-block;
+}
+#start{
+    position: absolute;
+}
+
+#question{
+    background-color: #81b29a;
+    border: 2px solid black;
+    font-family: monaco,Consolas,Lucida Console,monospace;
+    font-weight: bold;
+    margin: 30px;
+    font-size: 20px;
+    color: #14213d;
+}
+
+    #optionOne{
+        cursor: pointer;
+        border: 2px solid black;
+        font-family: monaco,Consolas,Lucida Console,monospace;
+        font-weight: bold;
+        margin: 10px;
+        background-color: #fec89a;
+    }
+    #optionOne:hover{
+        background-color: gold;
+        
+    }
+
+        #optionTwo{
+                cursor: pointer;
+                border: 2px solid black;
+                font-family: monaco,Consolas,Lucida Console,monospace;
+                font-weight: bold;
+                margin: 10px;
+                background-color: #fec89a;
+        }
+         #optionTwo:hover{
+        background-color: gold;
+        
+        }
+
+            #optionThree{
+                cursor: pointer;
+                border: 2px solid black;
+                font-family: monaco,Consolas,Lucida Console,monospace;
+                font-weight: bold;
+                margin: 10px;
+                background-color: #fec89a;
+            }
+            #optionThree:hover{
+                background-color: gold;
+                
+            }
+
+                #optionFour{
+                    cursor: pointer;
+                    border: 2px solid black;
+                    font-family: monaco,Consolas,Lucida Console,monospace;
+                    font-weight: bold;
+                    margin: 10px;
+                    background-color: #fec89a;
+                }
+                #optionFour:hover{
+                    background-color: gold;
+                    
+                }
+
+    #score{
+         
+                    font-family: monaco,Consolas,Lucida Console,monospace;
+                    font-weight: bold;
+margin: 10px;
+    }
+
+    #attempts{
+
+                    font-family: monaco,Consolas,Lucida Console,monospace;
+                    font-weight: bold;
+                    margin: 10px;
+    }
+    
+    #questionLeft{
+        font-family: monaco,Consolas,Lucida Console,monospace;
+    font-weight: bold;
+    margin: 10px;
+    }
+
+

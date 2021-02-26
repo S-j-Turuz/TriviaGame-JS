@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--Those are imports and defentions you should not edit  -->
+	
+    <!--  Meta  -->
+    <meta charset="UTF-8" />
+    <title></title> <!-- You can enter the application title here -->
+    
+	<!--  Styles  -->
+    <link rel="stylesheet" href="style.css"> <!--the reference to your CSS should be inserted here -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/f24533ba21.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    
+	<!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    
+	<!-- Jquery you should not edit -->
+    <!--the reference to your JavaScript code should be inserted here under src -->
+	
+</head>
+
+<body>
+
+    <div class="jumbotron" id="mainDiv">
+
+            <div class="category">
+            <select id="categories" name="categories" required>
+            <option value="none">Category</option>
+            </select>
+            </div>
+
+                    <div class="type">
+                    <select id="type" name="type" required> 
+                    <option value="none">Type</option>
+                    <option value="multiple">Multiple Choices </option>
+                    <option value="boolean">True or False </option>
+                    </select>
+                    </div>
+
+                        <div class="difficulty"> 
+                        <select id="difficulty" name="difficulty" required> 
+                        <option value="none">Difficulty</option>
+                        <option value="easy">Easy</option>
+                        <option value="medium">Medium</option>
+                        <option value="hard">Hard</option>
+                        </select>
+                        </div>
+
+                            <div class="amount">
+                            <input id="amount" type="number" min="1" max="20" style="width: 200px;" required placeholder="Enter Questions Amount">
+                            </div>
+
+            <button id="start">Start the Game </button>
+
+
+    </div>
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"> </script>
+	<!-- JavaScript -->
+	 <script type="text/javascript" src="Script.js"> </script> 
+</body>
+</html>
