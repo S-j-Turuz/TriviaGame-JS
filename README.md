@@ -6,6 +6,23 @@ Choose a Category:
 
 ![alt text](https://github.com/Savantor/TriviaGame-JS/blob/main/ChooseCategory.png)
 
+
 Choose Question Type:
 
-![](https://github.com/Savantor/TriviaGame-JS/blob/main/ChooseQuestionType.png =250x250)
+![alt text](https://github.com/Savantor/TriviaGame-JS/blob/main/ChooseQuestionType.png)
+
+Questions Page:
+
+![alt text](https://github.com/Savantor/TriviaGame-JS/blob/main/QuestionPage.png)
+
+Mouse Hover:
+
+![alt text](https://github.com/Savantor/TriviaGame-JS/blob/main/MouseHover.png)
+
+Last Question: 
+
+![alt text](https://github.com/Savantor/TriviaGame-JS/blob/main/LastQuestionPage.png)
+
+Play Again:
+
+![alt text](https://github.com/Savantor/TriviaGame-JS/blob/main/EndPage.png)
