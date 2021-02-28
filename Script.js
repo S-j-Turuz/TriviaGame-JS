@@ -163,7 +163,6 @@ document.getElementById("mainDiv").innerHTML = str;
 }
 
 
-// Mock DB functions you should not edit!
 
 function getCategories(select) {
 
